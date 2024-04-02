@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  display: flex;
+}
+.leftBox {
+  height: 735px;
+  width: 300px;
+  background-color: #1c2c3f;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 1296px;
+  height: 15px;
+  padding: 20px 20px;
+}
+.usa {
+  border-radius: 50%;
+}
+.right-nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+}
+.name {
+  color: rgb(96, 89, 113);
+}
+.profi {
+  font-size: 13px;
+  color: grey;
+}
+.nft {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: aliceblue;
+}
+.right-dashb {
+  display: flex;
+  gap: 5px;
+  padding: 20px 20px;
+}
+.dashb {
+  display: flex;
+  justify-content: center;
+  color: #007aff;
+}
+.right-icon {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  color: grey;
+}
+.mini-box1 {
+  width: 600px;
+  height: 250px;
+  background-color: aquamarine;
+  margin: 30px 30px;
+  border-radius: 6px;
+}
+.box-title {
+  width: 350px;
+}
+.box1-text {
+  color: grey;
+}
+.answer {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  color: blue;
+}
