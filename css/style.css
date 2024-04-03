@@ -86,3 +86,31 @@ nav {
   height: 60px;
   color: blue;
 }
+.discover {
+  button {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+  }
+}
+.asnwer {
+  display: flex;
+  gap: 10px;
+}
+.mini-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leftBox {
+  position: fixed;
+}
+.rightBox {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
